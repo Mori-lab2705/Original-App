@@ -89,7 +89,7 @@
     <div class="container">
         <h2>Edit Event</h2>
         <div class="back-link">
-            <a href="{{ route('index') }}">Back</a>
+            <a href="{{ route('index') }}">GO</a>
         </div>
         <form action="{{ route('event.update', $event->id) }}" method="POST">
             @csrf 

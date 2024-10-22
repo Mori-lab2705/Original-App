@@ -15,6 +15,10 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <h3>You are available this link below</h3>
+                        <div class="link">
+                            <a href="{{ route('index') }}">THIS</a>
+                        </div>
                 </div>
             </div>
         </div>
